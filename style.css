@@ -32,6 +32,11 @@ h2 {
     padding: 1rem 0rem;
 }
 
+h3 {
+    font-size: 1.25rem;
+    line-height: 125%;
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -39,5 +44,15 @@ h2 {
 
 .logo h1 {
     margin-left: 0.5rem;
+    font-size: 1rem;
     font-family: 'argonite', sans-serif;
+}
+
+.logo img {
+    width: 1.5rem;
+}
+
+.front-page {
+    min-height: 100vh;
+    background: lightblue;
 }
