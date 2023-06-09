@@ -21,3 +21,7 @@ body {
     font-family: 'argonite';
     src: url('./assets/stone\ orgonite.woff');
 }
+
+.links{
+    display: none;
+}
