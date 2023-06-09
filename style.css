@@ -8,9 +8,9 @@ html, body {
     height: 100%;
 }
 
-/* body {
-    /* background: gray; */
-/* }  */
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
 :root{
     --main-color: #f8b281;
