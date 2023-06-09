@@ -141,3 +141,22 @@ nav svg {
     transform: translate(-50%, -10%);
     font-size: 2rem;
 }
+
+.about {
+    color: var(--secondary-color);
+}
+
+.about h2 {
+    font-family: "argonite", sans-serif;
+    text-align: center;
+}
+
+.about p {
+    line-height: 150%;
+    font-size: 1.2rem;
+}
+
+.about img {
+    width: 100%;
+    margin-top: 2rem;
+}
