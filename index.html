@@ -4,29 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    \
+
+    <!-- Preconnect to Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Import Poppins font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Import external CSS -->
     <link rel="stylesheet" href="./style.css" />
+
     <title>Driver Academy</title>
   </head>
   <body>
     <section class="front-page">
+      <!-- Hero image -->
       <img class="hero" src="./assets/hero.png" alt="driver-academy" />
+
+      <!-- Navigation bar -->
       <nav>
         <div class="logo">
+          <!-- Logo image -->
           <img src="./assets/logo.svg" alt="formula-1-car" />
           <h1>driver & academy</h1>
         </div>
         <div class="links">
+          <!-- Navigation links -->
           <a href="#">our story</a>
           <a href="#">practice</a>
           <a href="#">classes</a>
         </div>
+        <!-- SVG lines -->
         <svg
           width="44"
           height="18"
@@ -60,11 +72,17 @@
           />
         </svg>
       </nav>
+
       <div class="selling-point">
+        <!-- Main headline -->
         <h2>Feel the Speed, Ignite Your Passion.</h2>
+
+        <!-- Sub headline -->
         <h3>
           Unleash your Inner Balance: Experience the Perfect Blend of F1 Thrills & Mindful Wellness.
         </h3>
+
+        <!-- Call-to-action buttons -->
         <div class="ctas">
           <button class="cta-sec">Explore classes</button>
           <button class="cta-main">
@@ -73,35 +91,51 @@
         </div>
       </div>
     </section>
+
     <section class="classes">
       <div class="classes-description">
+        <!-- Section title -->
         <h2>Classes tailored for you</h2>
+        <!-- Section subtitle -->
         <h3>Rejuvenate Your Racing Spirit</h3>
       </div>
+
       <div class="videos">
+        <!-- Video 1: Racecraft -->
         <div class="racecraft">
           <h3>Racecraft</h3>
           <video muted loop class="video" src="./assets/hammer-time.mp4"></video>
         </div>
+
+        <!-- Video 2: Learn to hit the apex -->
         <div class="apex">
           <h3>Learn to hit the apex</h3>
           <video muted loop class="video" src="./assets/through-goes-hamilton.mp4"></video>
         </div>
+
+        <!-- Video 3: Unleash your hidden talent -->
         <div class="talent">
           <h3>Unleash your hidden talent</h3>
           <video muted loop class="video" src="./assets/lewis-hamilton.mp4"></video>
         </div>
       </div>
     </section>
+
     <section class="about">
       <div class="our-story">
+        <!-- Section title -->
         <h2>My story...</h2>
+        <!-- Section content -->
         <p>
           Started go-karting from a very young age and I've never looked back ever since.
         </p>
       </div>
+
+      <!-- Image -->
       <img src="./assets/our-story.png" alt="our-story" />
     </section>
+
+    <!-- External JavaScript libraries -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"
       integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ=="
@@ -114,6 +148,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+
+    <!-- Custom JavaScript -->
     <script src="./script.js"></script>
   </body>
 </html>
